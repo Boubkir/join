@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1" />
+  <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+  <link rel="stylesheet" href="styles/font.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="styles/aside.css" />
+  <script src="mini_backend.js"></script>
+  <script src="js/script.js" defer></script>
+  <script src="js/add_task.js" defer></script>
+  <title>Join - Help</title>
+</head>
+
+<body onload="activatePage(6)">
+  <!-- header template -->
+  <div w3-include-html="includes/header.html"></div>
+  <!-- header template END -->
+
+  <!-- aside template -->
+  <div w3-include-html="includes/aside.html"></div>
+  <!-- aside template END -->
+
+  <main>
+    <div class="main-container help-container">
+      <div class="content-container">
+        <div class="content-title">
+          <h1>Help</h1>
+          <a href="summary.html"><img id="arrow-left-content" src="./img/icon-arrow-left.svg" alt="" /></a>
+        </div>
+        <div>
+          <h2>What is Join?</h2>
+          <p>
+            Join is a classical task management tool with a kanban-board.
+            You can organize your tasks whithin a project or business processes.
+            It is perfectly suitable for working together with your team.
+            Join let you and your team work more efficiently.
+            You have all of your taks in focus und won't miss upcoming deadlines anymore.
+            Start working with Join now!
+          </p>
+          <h2>How to use it</h2>
+          <h2>1.</h2>
+          <p>
+            Add a task with title, description and category. Assign the task to other team members of your contact list
+            or invite new contacts.
+          </p>
+          <h2>2.</h2>
+          <p>
+            Check the current status of your tasks in the kanban-board. You can drag and drop your task to change the
+            status. Also it is possible to edit the task details.
+          </p>
+          <h2>3.</h2>
+          <p>
+            Add team members to your contact list to communicate to them fastly. Also you can assign tasks directly to
+            your contacts.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="includes.js" defer></script>
+</body>
+
+</html>
